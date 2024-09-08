@@ -25,17 +25,12 @@ A collection of resources about direct perference optimization (DPO) series, inc
 
 ### Data source
 #### Data generating
-1. `2024.06` **"Online DPO: Online Direct Preference Optimization with Fast-Slow Chasing"**. arXiv. [Paper](https://arxiv.org/abs/2406.05534)
-
-2. `2024.01` **"Self-Rewarding Language Models"**. arXiv. [Paper](https://arxiv.org/abs/2401.10020)
-
-3. `2024.02` **"OAIF: Direct Language Model Alignment from Online AI Feedback"**. arXiv. [Paper](https://arxiv.org/abs/2402.04792)
-
-4. `2024.04` **"Iterative Reasoning Preference Optimization"**. arXiv. [Paper](https://arxiv.org/abs/2404.19733)
-
-5. `2024.06` **"Bootstrapping Language Models with DPO Implicit Rewards"**. arXiv. [Paper](https://arxiv.org/abs/2406.09760)
-
-6. `2024.06` **"Is Free Self-Alignment Possible?"**. arXiv. [Paper](https://arxiv.org/abs/2406.03642)
+* `2024.06` **"Online DPO: Online Direct Preference Optimization with Fast-Slow Chasing"**. [[arXiv]](https://arxiv.org/abs/2406.05534) [[code]]()
+* `2024.01` **"Self-Rewarding Language Models"**. arXiv. [Paper](https://arxiv.org/abs/2401.10020)
+* `2024.02` **"OAIF: Direct Language Model Alignment from Online AI Feedback"**. arXiv. [Paper](https://arxiv.org/abs/2402.04792)
+* `2024.04` **"Iterative Reasoning Preference Optimization"**. arXiv. [Paper](https://arxiv.org/abs/2404.19733)
+* `2024.06` **"Bootstrapping Language Models with DPO Implicit Rewards"**. arXiv. [Paper](https://arxiv.org/abs/2406.09760)
+* `2024.06` **"Is Free Self-Alignment Possible?"**. arXiv. [Paper](https://arxiv.org/abs/2406.03642)
 #### Data processing
 7. `2024.06` **"Iterative Length-Regularized Direct Preference Optimization"**. arXiv. [Paper](https://arxiv.org/abs/2406.11817)
 
