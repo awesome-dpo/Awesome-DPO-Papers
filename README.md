@@ -166,53 +166,53 @@ none
 none
 
 ### Recommendation && Search (Including Retrieval)
-* 2024.06 **"On Softmax Direct Preference Optimization for Recommendation"**. [[arXiv]](https://arxiv.org/abs/2406.09215)
+* 2024.06 **"On Softmax Direct Preference Optimization for Recommendation"**. [[arXiv]](https://arxiv.org/abs/2406.09215)[[code]]()
 
 ### Finance
-* 2024.08 **"SNFinLLM: Systematic and Nuanced Financial Domain Adaptation of Chinese Large Language Models"**. [[arXiv]](https://arxiv.org/abs/2408.02302)
+* 2024.08 **"SNFinLLM: Systematic and Nuanced Financial Domain Adaptation of Chinese Large Language Models"**. [[arXiv]](https://arxiv.org/abs/2408.02302)[[code]]()
 
 ### Embodied-AI
 none
 
 ### Social Impact (Safety, Privacy, Bias)
-* 2024.07 **"BiasDPO: Mitigating Bias in Language Models through Direct Preference Optimization"**. [[arXiv]](https://arxiv.org/abs/2407.13928)
-* 2024.07 **"Robust Utility-Preserving Text Anonymization Based on Large Language Models"**. [[arXiv]](https://arxiv.org/abs/2407.11770)
-* 2024.07 **"Exposing Privacy Gaps: Membership Inference Attack on Preference Data for LLM Alignment"**. [[arXiv]](https://arxiv.org/abs/2407.06443)
-* 2024.06 **"Preference Tuning For Toxicity Mitigation Generalizes Across Languages"**. [[arXiv]](https://arxiv.org/abs/2406.16235)
+* 2024.07 **"BiasDPO: Mitigating Bias in Language Models through Direct Preference Optimization"**. [[arXiv]](https://arxiv.org/abs/2407.13928)[[code]]()
+* 2024.07 **"Robust Utility-Preserving Text Anonymization Based on Large Language Models"**. [[arXiv]](https://arxiv.org/abs/2407.11770)[[code]]()
+* 2024.07 **"Exposing Privacy Gaps: Membership Inference Attack on Preference Data for LLM Alignment"**. [[arXiv]](https://arxiv.org/abs/2407.06443)[[code]]()
+* 2024.06 **"Preference Tuning For Toxicity Mitigation Generalizes Across Languages"**. [[arXiv]](https://arxiv.org/abs/2406.16235)[[code]]()
 
 ## Analysis
 ### General Analysis
-* 2024.07 **"Evaluating the Effectiveness of Direct Preference Optimization in Aligning Large Language Models"**. [[arXiv]](https://arxiv.org/abs/2407.08999)
-* 2024.06 **"Analyzing the Impact of Alignment Techniques on Model Robustness and Accuracy"**. [[arXiv]](https://arxiv.org/abs/2406.13588)
-* 2024.06 **"Comparative Analysis of Preference Optimization Methods Across Different Domains"**. [[arXiv]](https://arxiv.org/abs/2406.08876)
-* 2024.07 **"A Survey of Direct Preference Optimization Techniques in Modern AI Systems"**. [[arXiv]](https://arxiv.org/abs/2407.09273)
+* 2024.07 **"Evaluating the Effectiveness of Direct Preference Optimization in Aligning Large Language Models"**. [[arXiv]](https://arxiv.org/abs/2407.08999)[[code]]()
+* 2024.06 **"Analyzing the Impact of Alignment Techniques on Model Robustness and Accuracy"**. [[arXiv]](https://arxiv.org/abs/2406.13588)[[code]]()
+* 2024.06 **"Comparative Analysis of Preference Optimization Methods Across Different Domains"**. [[arXiv]](https://arxiv.org/abs/2406.08876)[[code]]()
+* 2024.07 **"A Survey of Direct Preference Optimization Techniques in Modern AI Systems"**. [[arXiv]](https://arxiv.org/abs/2407.09273)[[code]]()
 
 ### Performance Evaluation
-* 2024.06 **"Metrics for Evaluating Alignment Quality in Multi-Modal Models"**. [[arXiv]](https://arxiv.org/abs/2406.17483)
-* 2024.06 **"Benchmarking Direct Preference Optimization for Large Language Models"**. [[arXiv]](https://arxiv.org/abs/2406.08430)
-* 2024.06 **"Analyzing the Trade-Offs Between Preference Accuracy and Model Complexity"**. [[arXiv]](https://arxiv.org/abs/2406.05132)
-* 2024.07 **"Evaluation Framework for Multimodal Preference Alignment Models"**. [[arXiv]](https://arxiv.org/abs/2407.07921)
+* 2024.06 **"Metrics for Evaluating Alignment Quality in Multi-Modal Models"**. [[arXiv]](https://arxiv.org/abs/2406.17483)[[code]]()
+* 2024.06 **"Benchmarking Direct Preference Optimization for Large Language Models"**. [[arXiv]](https://arxiv.org/abs/2406.08430)[[code]]()
+* 2024.06 **"Analyzing the Trade-Offs Between Preference Accuracy and Model Complexity"**. [[arXiv]](https://arxiv.org/abs/2406.05132)[[code]]()
+* 2024.07 **"Evaluation Framework for Multimodal Preference Alignment Models"**. [[arXiv]](https://arxiv.org/abs/2407.07921)[[code]]()
 
 ### Robustness and Fairness
-* 2024.07 **"Assessing Fairness in Direct Preference Optimization Techniques"**. [[arXiv]](https://arxiv.org/abs/2407.10456)
-* 2024.06 **"Robustness Analysis of Preference-Based Alignment Methods"**. [[arXiv]](https://arxiv.org/abs/2406.12234)
-* 2024.06 **"Impact of Alignment Techniques on Model Fairness in Various Applications"**. [[arXiv]](https://arxiv.org/abs/2406.09954)
-* 2024.06 **"Evaluating the Effectiveness of Bias Mitigation Strategies in Preference Optimization"**. [[arXiv]](https://arxiv.org/abs/2406.09412)
+* 2024.07 **"Assessing Fairness in Direct Preference Optimization Techniques"**. [[arXiv]](https://arxiv.org/abs/2407.10456)[[code]]()
+* 2024.06 **"Robustness Analysis of Preference-Based Alignment Methods"**. [[arXiv]](https://arxiv.org/abs/2406.12234)[[code]]()
+* 2024.06 **"Impact of Alignment Techniques on Model Fairness in Various Applications"**. [[arXiv]](https://arxiv.org/abs/2406.09954)[[code]]()
+* 2024.06 **"Evaluating the Effectiveness of Bias Mitigation Strategies in Preference Optimization"**. [[arXiv]](https://arxiv.org/abs/2406.09412)[[code]]()
 
 ### Scalability
-* 2024.07 **"Scalability Challenges in Preference Optimization for Large-Scale AI Models"**. [[arXiv]](https://arxiv.org/abs/2407.11123)
-* 2024.07 **"Analyzing the Scalability of Direct Preference Optimization Techniques in High-Dimensional Spaces"**. [[arXiv]](https://arxiv.org/abs/2407.09214)
-* 2024.06 **"Performance and Efficiency Trade-Offs in Scalable Preference Optimization Algorithms"**. [[arXiv]](https://arxiv.org/abs/2406.14329)
+* 2024.07 **"Scalability Challenges in Preference Optimization for Large-Scale AI Models"**. [[arXiv]](https://arxiv.org/abs/2407.11123)[[code]]()
+* 2024.07 **"Analyzing the Scalability of Direct Preference Optimization Techniques in High-Dimensional Spaces"**. [[arXiv]](https://arxiv.org/abs/2407.09214)[[code]]()
+* 2024.06 **"Performance and Efficiency Trade-Offs in Scalable Preference Optimization Algorithms"**. [[arXiv]](https://arxiv.org/abs/2406.14329)[[code]]()
 
 ### Interpretability
-* 2024.06 **"Interpreting the Effects of Direct Preference Optimization on Model Outputs"**. [[arXiv]](https://arxiv.org/abs/2406.15374)
-* 2024.06 **"Understanding the Mechanisms of Alignment in Preference-Based Models"**. [[arXiv]](https://arxiv.org/abs/2406.12195)
-* 2024.07 **"Tools and Techniques for Interpreting Preference-Based Model Adjustments"**. [[arXiv]](https://arxiv.org/abs/2407.06785)
-* 2024.06 **"Analyzing the Impact of Preference Optimization on Model Interpretability"**. [[arXiv]](https://arxiv.org/abs/2406.11589)
+* 2024.06 **"Interpreting the Effects of Direct Preference Optimization on Model Outputs"**. [[arXiv]](https://arxiv.org/abs/2406.15374)[[code]]()
+* 2024.06 **"Understanding the Mechanisms of Alignment in Preference-Based Models"**. [[arXiv]](https://arxiv.org/abs/2406.12195)[[code]]()
+* 2024.07 **"Tools and Techniques for Interpreting Preference-Based Model Adjustments"**. [[arXiv]](https://arxiv.org/abs/2407.06785)[[code]]()
+* 2024.06 **"Analyzing the Impact of Preference Optimization on Model Interpretability"**. [[arXiv]](https://arxiv.org/abs/2406.11589)[[code]]()
 
 ### Theoretical Analysis
-* 2024.07 **"Theoretical Foundations of Direct Preference Optimization"**. [[arXiv]](https://arxiv.org/abs/2407.10342)
-* 2024.06 **"Analyzing the Theoretical Limits of Preference Alignment Techniques"**. [[arXiv]](https://arxiv.org/abs/2406.14629)
-* 2024.07 **"Formal Analysis of Optimization Techniques for Aligning Language Models"**. [[arXiv]](https://arxiv.org/abs/2407.12022)
-* 2024.06 **"Theoretical Perspectives on the Efficiency and Effectiveness of Preference Optimization"**. [[arXiv]](https://arxiv.org/abs/2406.07553)
+* 2024.07 **"Theoretical Foundations of Direct Preference Optimization"**. [[arXiv]](https://arxiv.org/abs/2407.10342)[[code]]()
+* 2024.06 **"Analyzing the Theoretical Limits of Preference Alignment Techniques"**. [[arXiv]](https://arxiv.org/abs/2406.14629)[[code]]()
+* 2024.07 **"Formal Analysis of Optimization Techniques for Aligning Language Models"**. [[arXiv]](https://arxiv.org/abs/2407.12022)[[code]]()
+* 2024.06 **"Theoretical Perspectives on the Efficiency and Effectiveness of Preference Optimization"**. [[arXiv]](https://arxiv.org/abs/2406.07553)[[code]]()
 
