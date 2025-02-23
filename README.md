@@ -9,6 +9,12 @@
 A collection of resources about direct perference optimization (DPO) series, including papers, models, repos, applications. 
 
 
+<p align="center">
+  <img src="dpo.jpg" width="512">
+</p>
+
+
+
 ## Table of Content
 - 💡[Algorithms](#algorithms)
   - [Data Source](#data-source)
