@@ -10,7 +10,7 @@ A collection of resources about direct perference optimization (DPO) series, inc
 
 
 <p align="center">
-  <img src="dpo.jpg" width="512">
+  <img src="dpo.jpg" width="640">
 </p>
 
 
