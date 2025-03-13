@@ -3,8 +3,12 @@
 </h1>
 <div align="center">
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/awesome-dpo/Awesome-DPO-Papers?color=yellow&labelColor=555555) 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
+![Updated](https://img.shields.io/badge/Updated-July_2024-blue)
+![Stars](https://img.shields.io/github/stars/awesome-dpo/Awesome-DPO-Papers?color=yellow&labelColor=555555) 
 </div>
+
+## 📚 Overview
 
 A collection of resources about direct perference optimization (DPO) series, including papers, models, repos, applications. 
 
@@ -15,8 +19,8 @@ A collection of resources about direct perference optimization (DPO) series, inc
 
 
 
-## Table of Content
-- 💡[Algorithms](#algorithms)
+## 💡Table of Content
+- 🧠[Algorithms](#algorithms)
   - [Data Source](#data-source)
     <!-- - [Offline](#offline) -->
     - [Data Processing](#data-processing)
@@ -41,12 +45,12 @@ A collection of resources about direct perference optimization (DPO) series, inc
   - [Transformation Function](#transformation-function)
 
 - 🧐[Analysis](#analysis)
-  - [Comparison between DPO and PPO](#dpo-ppo) 
+  - [Comparison between DPO and PPO](#comparison-between-dpo-and-ppo) 
   - [Hyperparameter Tunning](#hyperparameter-tuning) 
   - [Theoretical Analysis](#theoretical-analysis) 
 
 - 🎯[Application](#application)
-  - [Vision & Video](#vision-video)
+  - [Vision & Video](#vision--video)
   - [Audio](#audio)
   - [Multimodal-LLM](#multimodal-llm)
   - [Language](#language)
@@ -62,69 +66,66 @@ A collection of resources about direct perference optimization (DPO) series, inc
   - [Retrieval-Augmented Generation](#retrieval-augmented-generation)
   - [Finance](#finance)
   - [Embodied-AI](#embodied-ai)
-  - [Social Impact](#social-impact)
+  - [Social Impact (Safety, Privacy, Bias)](#social-impact-safety-privacy-bias)
 ---
 
-## 💡Algorithms
+## 🧠Algorithms
 
 ### Data Source
 <!-- #### Offline -->
 #### Data Processing
-* 2024.02 **"Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment"**. [[Paper]](https://arxiv.org/abs/2402.19085) [[Code]]()
-* 2024.03 **"sDPO: Don't Use Your Data All at Once"**. [[Paper]](https://arxiv.org/abs/2403.19270) [[Code]]()
-* 2024.08 **"Bridging and Modeling Correlations in Pairwise Data for Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2408.07471) [[Code]]()
-* 2024.06 **"Suri: Multi-constraint Instruction Following for Long-form Text Generation"**. [[Paper]](https://arxiv.org/abs/2406.19371) [[Code]]()
-* 2024.08 **"Less for More: Enhancing Preference Learning in Generative Language Models with Automated Self-Curation"**. [[Paper]](https://arxiv.org/abs/2408.12799) [[Code]]()
-* 2024.06 **"OPTune: Efficient Online Preference Tuning"**. [[Paper]](https://arxiv.org/abs/2406.07657) [[Code]]()
+* 2024.02 **"Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment"**. [[Paper]](https://arxiv.org/abs/2402.19085) [[Code]](https://github.com/OpenBMB/CPO)
+* 2024.03 **"sDPO: Don't Use Your Data All at Once"**. [[Paper]](https://arxiv.org/abs/2403.19270)
+* 2024.08 **"Bridging and Modeling Correlations in Pairwise Data for Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2408.07471) [[Code]](https://github.com/YJiangcm/BMC)
+* 2024.06 **"Suri: Multi-constraint Instruction Following for Long-form Text Generation"**. [[Paper]](https://arxiv.org/abs/2406.19371) [[Code]](https://github.com/chtmp223/suri)
+* 2024.08 **"Less for More: Enhancing Preference Learning in Generative Language Models with Automated Self-Curation"**. [[Paper]](https://arxiv.org/abs/2408.12799) [[Code]](https://github.com/Self-Curation/Project)
+* 2024.06 **"OPTune: Efficient Online Preference Tuning"**. [[Paper]](https://arxiv.org/abs/2406.07657)
 
 #### Self-Rewarding
-* 2024.01 **"Self-Rewarding Language Models"**. [[Paper]](https://arxiv.org/abs/2401.10020) [[Code]]()
-* 2024.02 **"OAIF: Direct Language Model Alignment from Online AI Feedback"**. [[Paper]](https://arxiv.org/abs/2402.04792) [[Code]]()
-* 2024.04 **"Iterative Reasoning Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2404.19733) [[Code]]()
-* 2024.06 **"Bootstrapping Language Models with DPO Implicit Rewards"**. [[Paper]](https://arxiv.org/abs/2406.09760) [[Code]]()
-* 2024.06 **"Is Free Self-Alignment Possible?"**. [[Paper]](https://arxiv.org/abs/2406.03642) [[Code]]()
+* 2024.01 **"Self-Rewarding Language Models"**. [[Paper]](https://arxiv.org/abs/2401.10020) [[Code]](https://github.com/Oxen-AI/Self-Rewarding-Language-Models)
+* 2024.02 **"OAIF: Direct Language Model Alignment from Online AI Feedback"**. [[Paper]](https://arxiv.org/abs/2402.04792) [[Code]](https://hyunyoung2.github.io/2024/09/02/OAIF/)
+* 2024.04 **"Iterative Reasoning Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2404.19733)
+* 2024.06 **"Bootstrapping Language Models with DPO Implicit Rewards"**. [[Paper]](https://arxiv.org/abs/2406.09760) [[Code]](https://github.com/sail-sg/dice)
+* 2024.06 **"Is Free Self-Alignment Possible?"**. [[Paper]](https://arxiv.org/abs/2406.03642)
 
 
 #### Data Generation
-* 2024.06 **"Online DPO: Online Direct Preference Optimization with Fast-Slow Chasing"**. [[Paper]](https://arxiv.org/abs/2406.05534) [[Code]]()
-* 2024.06 **"Iterative Length-Regularized Direct Preference Optimization: A Case Study on Improving 7B Language Models to GPT-4 Level"**. [[Paper]](https://arxiv.org/abs/2406.11817) [[Code]]()
-* 2024.04 **"Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data"**. [[Paper]](https://arxiv.org/abs/2404.14367) [[Code]]()
-* 2024.06 **"Show, Don't Tell: Aligning Language Models with Demonstrated Feedback"**. [[Paper]](https://arxiv.org/abs/2406.00888) [[Code]]()
-* 2024.06 **"BPO: Staying Close to the Behavior LLM Creates Better Online LLM Alignment"**. [[Paper]](https://arxiv.org/abs/2406.12168) [[Code]]()
-* 2024.07 **"Iterative Nash Policy Optimization: Aligning LLMs with General Preferences via No-Regret Learning"**. [[Paper]](https://arxiv.org/abs/2407.00617) [[Code]]()
-* 2024.02 **"RS-DPO: A Hybrid Rejection Sampling and Direct Preference Optimization Method for Alignment of Large Language Models"**. [[Paper]](https://arxiv.org/abs/2402.10038) [[Code]]()
-* 2024.05 **"D2PO: Discriminator-Guided DPO with Response Evaluation Models"**. [[Paper]](https://arxiv.org/abs/2405.01511) [[Code]]()
-* 2024.09 **"TSO: Self-Training with Scaled Preference Optimization"**. [[Paper]](https://www.arxiv.org/abs/2409.02118) [[Code]]()
-
-* 2024.02 **"OAIF: Direct Language Model Alignment from Online AI Feedback"**. [[Paper]](https://arxiv.org/abs/2402.04792) [[Code]]()
-* 2024.04 **"Iterative Reasoning Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2404.19733) [[Code]]()
-* 2024.06 **"Bootstrapping Language Models with DPO Implicit Rewards"**. [[Paper]](https://arxiv.org/abs/2406.09760) [[Code]]()
-* 2024.06 **"Is Free Self-Alignment Possible?"**. [[Paper]](https://arxiv.org/abs/2406.03642) [[Code]]()
+* 2024.06 **"Online DPO: Online Direct Preference Optimization with Fast-Slow Chasing"**. [[Paper]](https://arxiv.org/abs/2406.05534)
+* 2024.06 **"Iterative Length-Regularized Direct Preference Optimization: A Case Study on Improving 7B Language Models to GPT-4 Level"**. [[Paper]](https://arxiv.org/abs/2406.11817)
+* 2024.04 **"Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data"**. [[Paper]](https://arxiv.org/abs/2404.14367) [[Code]](https://understanding-rlhf.github.io/)
+* 2024.06 **"Show, Don't Tell: Aligning Language Models with Demonstrated Feedback"**. [[Paper]](https://arxiv.org/abs/2406.00888) [[Code]](https://github.com/SALT-NLP/demonstrated-feedback)
+* 2024.06 **"BPO: Staying Close to the Behavior LLM Creates Better Online LLM Alignment"**. [[Paper]](https://arxiv.org/abs/2406.12168) [[Code]](https://github.com/xu1998hz/BPO)
+* 2024.07 **"Iterative Nash Policy Optimization: Aligning LLMs with General Preferences via No-Regret Learning"**. [[Paper]](https://arxiv.org/abs/2407.00617)
+* 2024.02 **"RS-DPO: A Hybrid Rejection Sampling and Direct Preference Optimization Method for Alignment of Large Language Models"**. [[Paper]](https://arxiv.org/abs/2402.10038)
+* 2024.05 **"D2PO: Discriminator-Guided DPO with Response Evaluation Models"**. [[Paper]](https://arxiv.org/abs/2405.01511) [[Code]](https://github.com/PrasannS/d2po)
+* 2024.09 **"TSO: Self-Training with Scaled Preference Optimization"**. [[Paper]](https://www.arxiv.org/abs/2409.02118)
 
 ### Feedback Granularity
 #### Token Level
-* 2024.08 **"Bridging and Modeling Correlations in Pairwise Data for Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2408.07471) [[Code]]()
-* 2024.06 **"Eliminating Biased Length Reliance of Direct Preference Optimization via Down-Sampled KL Divergence"**. [[Paper]](https://arxiv.org/abs/2406.10957) [[Code]]()
-* 2024.04 **"Token-level Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2404.11999) [[Code]]()
-* 2024.08 **"Selective Preference Optimization via Token-Level Reward Function Estimation"**. [[Paper]](https://arxiv.org/abs/2408.13518) [[Code]]()
-* 2024.08 **"Inverse-Q *: Token Level Reinforcement Learning for Aligning Large Language Models Without Preference Data"**. [[Paper]](https://arxiv.org/abs/2408.14874) [[Code]]()
+* 2024.08 **"Bridging and Modeling Correlations in Pairwise Data for Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2408.07471) [[Code]](https://github.com/YJiangcm/BMC)
+* 2024.06 **"Eliminating Biased Length Reliance of Direct Preference Optimization via Down-Sampled KL Divergence"**. [[Paper]](https://arxiv.org/abs/2406.10957) [[Code]](https://github.com/LuJunru/SamPO)
+* 2024.04 **"Token-level Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2404.11999) [[Code]](https://github.com/Vance0124/Token-level-Direct-Preference-Optimization)
+* 2024.08 **"Selective Preference Optimization via Token-Level Reward Function Estimation"**. [[Paper]](https://arxiv.org/abs/2408.13518)
+* 2024.08 **"Inverse-Q *: Token Level Reinforcement Learning for Aligning Large Language Models Without Preference Data"**. [[Paper]](https://arxiv.org/abs/2408.14874)
+  
 #### Reasoning Step Level
-* 2024.07 **"Step-Controlled DPO: Leveraging Stepwise Error for Enhanced Mathematical Reasoning"**. [[Paper]](https://arxiv.org/abs/2407.00782) [[Code]]()
-* 2024.06 **"Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs"**. [[Paper]](https://arxiv.org/abs/2406.18629) [[Code]]()
+* 2024.07 **"Step-Controlled DPO: Leveraging Stepwise Error for Enhanced Mathematical Reasoning"**. [[Paper]](https://arxiv.org/abs/2407.00782) [[Code]](https://github.com/mathllm/Step-Controlled_DPO)
+* 2024.06 **"Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs"**. [[Paper]](https://arxiv.org/abs/2406.18629) [[Code]](https://github.com/dvlab-research/Step-DPO)
 
 #### Sequence Level
-* 2024.07 **"β-DPO: Direct Preference Optimization with Dynamic β"**. [[Paper]](https://arxiv.org/abs/2407.08639) [[Code]]()
-* 2024.07 **"Right Now, Wrong Then: Non-Stationary Direct Preference Optimization under Preference Drift"**. [[Paper]](https://arxiv.org/abs/2407.18676) [[Code]]()
-* 2024.08 **"Offline RLHF Methods Need More Accurate Supervision Signals"**. [[Paper]](https://arxiv.org/abs/2408.09385) [[Code]]()
-* 2024.06 **"WPO: Enhancing RLHF with Weighted Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2406.11827) [[Code]]()
-* 2024.06 **"Adaptive Query Rewriting: Aligning Rewriters through Marginal Probability of Conversational Answers"**. [[Paper]](https://arxiv.org/abs/2406.10991) [[Code]]()
+* 2024.07 **"β-DPO: Direct Preference Optimization with Dynamic β"**. [[Paper]](https://arxiv.org/abs/2407.08639) [[Code]](https://github.com/junkangwu/beta-DPO)
+* 2024.07 **"Right Now, Wrong Then: Non-Stationary Direct Preference Optimization under Preference Drift"**. [[Paper]](https://arxiv.org/abs/2407.18676)
+* 2024.08 **"Offline RLHF Methods Need More Accurate Supervision Signals"**. [[Paper]](https://arxiv.org/abs/2408.09385)
+* 2024.06 **"WPO: Enhancing RLHF with Weighted Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2406.11827) [[Code]](https://github.com/wzhouad/WPO)
+* 2024.06 **"Adaptive Query Rewriting: Aligning Rewriters through Marginal Probability of Conversational Answers"**. [[Paper]](https://arxiv.org/abs/2406.10991)
+  
 ### Regularization
 #### Response Length
-* 2024.02 **"Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs"**. [[Paper]](https://arxiv.org/abs/2402.08005) [[Code]]()
-* 2024.05 **"SimPO: Simple Preference Optimization with a Reference-Free Reward"**. [[Paper]](https://arxiv.org/abs/2405.14734) [[Code]]()
-* 2024.07 **"The Hitchhiker's Guide to Human Alignment with *PO"**. [[Paper]](https://arxiv.org/abs/2407.15229) [[Code]]()
-* 2024.06 **"Iterative Length-Regularized Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2406.11817) [[Code]]()
-* 2024.09 **"Length Desensitization in Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2409.06411) [[Code]]()
+* 2024.02 **"Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs"**. [[Paper]](https://arxiv.org/abs/2402.08005) [[Code]](https://github.com/vicgalle/refined-dpo/)
+* 2024.05 **"SimPO: Simple Preference Optimization with a Reference-Free Reward"**. [[Paper]](https://arxiv.org/abs/2405.14734) [[Code]](https://github.com/princeton-nlp/SimPO)
+* 2024.07 **"The Hitchhiker's Guide to Human Alignment with *PO"**. [[Paper]](https://arxiv.org/abs/2407.15229)
+* 2024.06 **"Iterative Length-Regularized Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2406.11817)
+* 2024.09 **"Length Desensitization in Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2409.06411)
 
 #### Likelihood
 <!-- * 2024.07 **"Step-Controlled DPO: Leveraging Stepwise Error for Enhanced Mathematical Reasoning"**. [[Paper]](https://arxiv.org/abs/2407.00782) [[Code]]() -->
@@ -390,7 +391,8 @@ A collection of resources about direct perference optimization (DPO) series, inc
 * 2024.06 **"Preference Tuning For Toxicity Mitigation Generalizes Across Languages"**. [[Paper]](https://arxiv.org/abs/2406.16235)[[Code]]()
 * 2024.11 **"AI-TA: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source LLMs"**. [[Paper]](https://arxiv.org/abs/2311.02775)[[Code]]()
 
-
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
 
 <!-- 
 ## Analysis
