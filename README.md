@@ -129,18 +129,18 @@ A collection of resources about direct perference optimization (DPO) series, inc
 ---
 #### Likelihood
 <!-- * 2024.07 **"Step-Controlled DPO: Leveraging Stepwise Error for Enhanced Mathematical Reasoning"**. [[Paper]](https://arxiv.org/abs/2407.00782) [[Code]]() -->
-* 2024.02 **"Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment"**. [[Paper]](https://arxiv.org/abs/2402.19085) [[Code]]()
-* 2024.04 **"Token-level Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2404.11999) [[Code]]()
-* 2024.06 **"Step-level Value Preference Optimization for Mathematical Reasoning"**. [[Paper]](https://arxiv.org/abs/2406.10858) [[Code]]()
-* 2024.03 **"ORPO: Monolithic Preference Optimization without Reference Model"**. [[Paper]](https://arxiv.org/abs/2403.07691) [[Code]]()
-* 2024.05 **"Value-Incentivized Preference Optimization: A Unified Approach to Online and Offline RLHF"**. [[Paper]](https://arxiv.org/abs/2405.19320) [[Code]]()
-* 2024.05 **"Direct Alignment of Language Models via Quality-Aware Self-Refinement"**. [[Paper]](https://arxiv.org/abs/2405.21040) [[Code]]()
+* 2024.02 **"Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment"**. [[Paper]](https://arxiv.org/abs/2402.19085) [[Code]](https://github.com/OpenBMB/CPO)
+* 2024.04 **"Token-level Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2404.11999) [[Code]](https://github.com/Vance0124/Token-level-Direct-Preference-Optimization)
+* 2024.06 **"Step-level Value Preference Optimization for Mathematical Reasoning"**. [[Paper]](https://arxiv.org/abs/2406.10858) [[Code]](https://github.com/MARIO-Math-Reasoning/Super_MARIO)
+* 2024.03 **"ORPO: Monolithic Preference Optimization without Reference Model"**. [[Paper]](https://arxiv.org/abs/2403.07691) [[Code]](https://github.com/xfactlab/orpo)
+* 2024.05 **"Value-Incentivized Preference Optimization: A Unified Approach to Online and Offline RLHF"**. [[Paper]](https://arxiv.org/abs/2405.19320)
+* 2024.05 **"Direct Alignment of Language Models via Quality-Aware Self-Refinement"**. [[Paper]](https://arxiv.org/abs/2405.21040)
 ---
 #### Noise Label
-* 2024.07 **"Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.07880) [[Code]]()
-* 2024.04 **"ROPO: Robust Preference Optimization for Large Language Models"**. [[Paper]](https://arxiv.org/abs/2404.04102) [[Code]]()
-* 2024.05 **"Would I Lie To You? Inference Time Alignment of Language Models using Direct Preference Heads"**. [[Paper]](https://arxiv.org/abs/2405.20053) [[Code]]()
-* 2024.06 **"Robust Reinforcement Learning from Corrupted Human Feedback"**. [[Paper]](https://arxiv.org/abs/2406.15568) [[Code]]()
+* 2024.07 **"Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.07880) [[Code]](https://github.com/junkangwu/Dr_DPO)
+* 2024.04 **"ROPO: Robust Preference Optimization for Large Language Models"**. [[Paper]](https://arxiv.org/abs/2404.04102)
+* 2024.05 **"Would I Lie To You? Inference Time Alignment of Language Models using Direct Preference Heads"**. [[Paper]](https://arxiv.org/abs/2405.20053)
+* 2024.06 **"Robust Reinforcement Learning from Corrupted Human Feedback"**. [[Paper]](https://arxiv.org/abs/2406.15568)
 ---
 ### Feedback Signal
 #### Point-wised Feedback
