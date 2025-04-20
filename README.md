@@ -56,6 +56,7 @@ A collection of resources about direct perference optimization (DPO) series, inc
   - [Language](#language)
     - [Conversation](#conversation)
     - [Multilingual-LLM](#multilingual-llm)
+    - [Long-LLM](#long-llm)
     - [Technical Reports of LLMs](#technical-reports-of-llms)
   - [Math](#math)
   - [Code](#code)
@@ -63,7 +64,7 @@ A collection of resources about direct perference optimization (DPO) series, inc
     - [Medical Health](#medical-health)
     - [Chemistry](#chemistry)
     - [Biology](#biology)
-  - [Retrieval-Augmented Generation](#retrieval-augmented-generation)
+  - [Recommendation and Search](#recommendation-and-search)
   - [Finance](#finance)
   - [Embodied-AI](#embodied-ai)
   - [Social Impact (Safety, Privacy, Bias)](#social-impact-safety-privacy-bias)
@@ -178,7 +179,7 @@ A collection of resources about direct perference optimization (DPO) series, inc
 * 2024.07 **"New Desiderata for Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.09072) [[Code]]()
 ---
 
-## 🧐 Analysis
+## 🧐Analysis
 ### Comparison between DPO and PPO
 * 2024.06 **"Unpacking DPO and PPO: Disentangling Best Practices for Learning from Preference Feedback"**. [[Paper]](https://arxiv.org/abs/2406.09279)[[Code]]()
 * 2024.04 **"Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study"**. [[Paper]](https://arxiv.org/abs/2404.10719)[[Code]]()
@@ -299,6 +300,9 @@ A collection of resources about direct perference optimization (DPO) series, inc
 * 2024.05 **"Word Alignment as Preference for Machine Translation"**. [[Paper]](https://arxiv.org/abs/2405.09223) [[Code]]()
 * 2023.12 **"SeaLLMs -- Large Language Models for Southeast Asia"**. [[Paper]](https://arxiv.org/abs/2312.00738) [[Code]]()
 ---
+#### Long-LLM
+* 
+---
 #### Technical Reports of LLMs
 * 2024.07 **"Apple Intelligence Foundation Language Models"**. [[Paper]](https://arxiv.org/abs/2407.21075) [[Code]]()
 * 2024.01 **"H2O-Danube-1.8B Technical Report"**. [[Paper]](https://arxiv.org/abs/2401.16818) [[Code]]()
@@ -367,7 +371,7 @@ A collection of resources about direct perference optimization (DPO) series, inc
 * 2024.06 **"MSAGPT: Neural Prompting Protein Structure Prediction via MSA Generative Pre-Training"**. [[Paper]](https://arxiv.org/abs/2406.05347)[[Code]]()
 * 2024 **"Saama Technologies at BioLaySumm: Abstract based fine-tuned models with LoRA"**. [[Paper]](https://aclanthology.org/2024.bionlp-1.72.pdf)[[Code]]()
 ---
-### Retrieval-Augmented Generation
+### Recommendation and Search
 * 2024.06 **"Supportiveness-based Knowledge Rewriting for Retrieval-augmented Language Modeling"**. [[Paper]](https://arxiv.org/abs/2406.08116)[[Code]]()
 ---
 ### Finance
