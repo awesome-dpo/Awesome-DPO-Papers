@@ -159,8 +159,7 @@ A collection of resources about direct perference optimization (DPO) series, inc
 * 2024.05 **"SimPO: Simple Preference Optimization with a Reference-Free Reward"**. [[Paper]](https://arxiv.org/abs/2405.14734) [[Code]](https://github.com/princeton-nlp/SimPO)
 * 2024.05 **"Soft Preference Optimization: Aligning Language Models to Expert Distributions"**. [[Paper]](https://arxiv.org/abs/2405.00747v4)
 * 2024.03 **"ORPO: Monolithic Preference Optimization without Reference Model"**. [[Paper]](https://arxiv.org/abs/2403.07691) [[Code]](https://github.com/xfactlab/orpo)
-* 2024.01 **"Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation"**. [[Paper]](https://arxiv.org/abs/2401.08417) [[Code]](https://github.
-com/fe1ixxu/ALMA)
+* 2024.01 **"Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation"**. [[Paper]](https://arxiv.org/abs/2401.08417) [[Code]](https://github.com/fe1ixxu/ALMA)
 ---
 #### Reference Model Variant
 * 2024.03 **"sDPO: Don't Use Your Data All at Once"**. [[Paper]](https://arxiv.org/abs/2403.19270)
