@@ -145,90 +145,86 @@ A collection of resources about direct perference optimization (DPO) series, inc
 ---
 ### Feedback Signal
 #### Point-wised Feedback
-* 2024.02 **"KTO: Model Alignment as Prospect Theoretic Optimization"**. [[Paper]](https://arxiv.org/abs/2402.01306) [[Code]]()
-* 2024.08 **"Reward Difference Optimization (RDO): Offline RLHF Methods Need More Accurate Supervision Signals"**. [[Paper]](https://arxiv.org/abs/2408.09385) [[Code]]()
-* 2024.05 **"Offline Regularised Reinforcement Learning for Large Language Models Alignment"**. [[Paper]](https://arxiv.org/abs/2405.19107) [[Code]]()
+* 2024.02 **"KTO: Model Alignment as Prospect Theoretic Optimization"**. [[Paper]](https://arxiv.org/abs/2402.01306) [[Code]](https://github.com/ContextualAI/HALOs)
+* 2024.08 **"Reward Difference Optimization (RDO): Offline RLHF Methods Need More Accurate Supervision Signals"**. [[Paper]](https://arxiv.org/abs/2408.09385)
+* 2024.05 **"Offline Regularised Reinforcement Learning for Large Language Models Alignment"**. [[Paper]](https://arxiv.org/abs/2405.19107)
 ---
 <!-- #### Pair-wised Feedback -->
 #### List-wised Feedback
-* 2024.07 **"LiPO: Listwise Preference Optimization through Learning"**. [[Paper]](https://arxiv.org/abs/2407.05279) [[Code]]()
-* 2024.04 **"Sequence-Level Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2404.19999) [[Code]]()
-* 2024.07 **"Fine-tuning Direct Preference Optimization with Multi-label Feedback"**. [[Paper]](https://arxiv.org/abs/2407.05279) [[Code]]()
-* 2024.06 **"Multi-Class Preference Optimization: Balancing Conflicting Preferences in Generative AI"**. [[Paper]](https://arxiv.org/abs/2406.19471) [[Code]]()
+* 2024.02 **"LiPO: Listwise Preference Optimization through Learning-to-Rank"**. [[Paper]](https://arxiv.org/abs/2402.01878)
 ---
 ### Reference Model
 <!-- #### Reference Model Invariant -->
 #### Reference Model Free
-* 2024.05 **"SimPO: Simple Preference Optimization with a Reference-Free Reward"**. [[Paper]](https://arxiv.org/abs/2405.14734) [[Code]]()
-* 2024.05 **"Soft Preference Optimization: Aligning Language Models to Expert Distributions"**. [[Paper]](https://arxiv.org/abs/2405.00747v4) [[Code]]()
-* 2024.03 **"ORPO: Monolithic Preference Optimization without Reference Model"**. [[Paper]](https://arxiv.org/abs/2403.07691) [[Code]]()
-* 2024.01 **"Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation"**. [[Paper]](https://arxiv.org/abs/2401.08417) [[Code]]()
+* 2024.05 **"SimPO: Simple Preference Optimization with a Reference-Free Reward"**. [[Paper]](https://arxiv.org/abs/2405.14734) [[Code]](https://github.com/princeton-nlp/SimPO)
+* 2024.05 **"Soft Preference Optimization: Aligning Language Models to Expert Distributions"**. [[Paper]](https://arxiv.org/abs/2405.00747v4)
+* 2024.03 **"ORPO: Monolithic Preference Optimization without Reference Model"**. [[Paper]](https://arxiv.org/abs/2403.07691) [[Code]](https://github.com/xfactlab/orpo)
+* 2024.01 **"Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation"**. [[Paper]](https://arxiv.org/abs/2401.08417) [[Code]](https://github.
+com/fe1ixxu/ALMA)
 ---
 #### Reference Model Variant
-* 2024.03 **"sDPO: Don't Use Your Data All at Once"**. [[Paper]](https://arxiv.org/abs/2403.19270) [[Code]]()
-* 2024.04 **"Direct Nash Optimization: Teaching Language Models to Self-Improve with General Preferences"**. [[Paper]](https://arxiv.org/abs/2404.03715) [[Code]]()
-* 2024.04 **"Iterative Reasoning Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2404.19733) [[Code]]()
+* 2024.03 **"sDPO: Don't Use Your Data All at Once"**. [[Paper]](https://arxiv.org/abs/2403.19270)
+* 2024.04 **"Direct Nash Optimization: Teaching Language Models to Self-Improve with General Preferences"**. [[Paper]](https://arxiv.org/abs/2404.03715)
+* 2024.04 **"Iterative Reasoning Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2404.19733)
 ---
 ### Transformation Function
-* 2024.02 **"Generalized Preference Optimization: A Unified Approach to Offline Alignment"**. [[Paper]](https://arxiv.org/abs/2402.05749) [[Code]]()
-* 2023.09 **"Beyond Reverse KL: Generalizing Direct Preference Optimization with Diverse Divergence Constraints"**. [[Paper]](https://arxiv.org/abs/2309.16240) [[Code]]()
-* 2023.10 **"A General Theoretical Paradigm to Understand Learning from Human Preferences"**. [[Paper]](https://arxiv.org/abs/2310.12036) [[Code]]()
-* 2024.05 **"Offline Regularised Reinforcement Learning for Large Language Models Alignment"**. [[Paper]](https://arxiv.org/abs/2405.19107) [[Code]]()
-* 2024.07 **"Correcting the Mythos of KL-Regularization: Direct Alignment without Overoptimization via Chi-Squared Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.13399) [[Code]]()
-* 2024.07 **"Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.07880) [[Code]]()
-* 2024.07 **"New Desiderata for Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.09072) [[Code]]()
+* 2024.02 **"Generalized Preference Optimization: A Unified Approach to Offline Alignment"**. [[Paper]](https://arxiv.org/abs/2402.05749)
+* 2023.09 **"Beyond Reverse KL: Generalizing Direct Preference Optimization with Diverse Divergence Constraints"**. [[Paper]](https://arxiv.org/abs/2309.16240)
+* 2023.10 **"A General Theoretical Paradigm to Understand Learning from Human Preferences"**. [[Paper]](https://arxiv.org/abs/2310.12036)
+* 2024.05 **"Offline Regularised Reinforcement Learning for Large Language Models Alignment"**. [[Paper]](https://arxiv.org/abs/2405.19107)
+* 2024.07 **"Correcting the Mythos of KL-Regularization: Direct Alignment without Overoptimization via Chi-Squared Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.13399)
+* 2024.07 **"Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.07880) [[Code]](https://github.com/junkangwu/Dr_DPO)
+* 2024.07 **"New Desiderata for Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.09072)
 ---
 
 ## 🧐Analysis
 ### Comparison between DPO and PPO
-* 2024.06 **"Unpacking DPO and PPO: Disentangling Best Practices for Learning from Preference Feedback"**. [[Paper]](https://arxiv.org/abs/2406.09279)[[Code]]()
-* 2024.04 **"Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study"**. [[Paper]](https://arxiv.org/abs/2404.10719)[[Code]]()
-* 2023.12 **"Policy Optimization in RLHF: The Impact of Out-of-preference Data"**. [[Paper]](https://arxiv.org/abs/2312.10584)[[Code]]()
-* 2024.06 **"3D-Properties: Identifying Challenges in DPO and Charting a Path Forward"**. [[Paper]](https://arxiv.org/abs/2406.07327)[[Code]]()
-* 2024.05 **"Understanding the performance gap between online and offline alignment algorithms"**. [[Paper]](https://arxiv.org/abs/2405.08448)[[Code]]()
-* 2024.04 **"DPO Meets PPO: Reinforced Token Optimization for RLHF"**. [[Paper]](https://arxiv.org/abs/2404.18922)[[Code]]()
-* 2024.09 **"On the Limited Generalization Capability of the Implicit Reward Model Induced by Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2409.03650)[[Code]]()
+* 2024.06 **"Unpacking DPO and PPO: Disentangling Best Practices for Learning from Preference Feedback"**. [[Paper]](https://arxiv.org/abs/2406.09279)[[Code]](https://github.com/hamishivi/EasyLM)
+* 2024.04 **"Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study"**. [[Paper]](https://arxiv.org/abs/2404.10719)[[Code]](https://github.com/openpsi-project/ReaLHF)
+* 2023.12 **"Policy Optimization in RLHF: The Impact of Out-of-preference Data"**. [[Paper]](https://arxiv.org/abs/2312.10584)[[Code]](https://github.com/liziniu/policy_optimization)
+* 2024.06 **"3D-Properties: Identifying Challenges in DPO and Charting a Path Forward"**. [[Paper]](https://arxiv.org/abs/2406.07327)
+* 2024.05 **"Understanding the performance gap between online and offline alignment algorithms"**. [[Paper]](https://arxiv.org/abs/2405.08448)
+* 2024.04 **"DPO Meets PPO: Reinforced Token Optimization for RLHF"**. [[Paper]](https://arxiv.org/abs/2404.18922)[[Code]](https://github.com/zkshan2002/RTO)
+* 2024.09 **"On the Limited Generalization Capability of the Implicit Reward Model Induced by Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2409.03650)
 ---
 ### Hyperparameter Tuning
-* 2024.08 **"Minor DPO reject penalty to increase training robustness"**. [[Paper]](https://arxiv.org/abs/2408.09834)[[Code]]()
-* 2024.07 **"Understanding Reference Policies in Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.13709)[[Code]]()
-* 2024.02 **"Generalized Preference Optimization: A Unified Approach to Offline Alignment"**. [[Paper]](https://arxiv.org/abs/2402.05749)[[Code]]()
-* 2024.06 **"Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms"**. [[Paper]](https://arxiv.org/abs/2406.02900)[[Code]]()
-* 2024.06 **"Discovering Preference Optimization Algorithms with and for Large Language Models"**. [[Paper]](https://arxiv.org/abs/2406.08414)[[Code]]()
+* 2024.08 **"Minor DPO reject penalty to increase training robustness"**. [[Paper]](https://arxiv.org/abs/2408.09834)
+* 2024.07 **"Understanding Reference Policies in Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.13709)[[Code]](https://github.com/yale-nlp/refdpo)
+* 2024.02 **"Generalized Preference Optimization: A Unified Approach to Offline Alignment"**. [[Paper]](https://arxiv.org/abs/2402.05749)
+* 2024.06 **"Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms"**. [[Paper]](https://arxiv.org/abs/2406.02900)
+* 2024.06 **"Discovering Preference Optimization Algorithms with and for Large Language Models"**. [[Paper]](https://arxiv.org/abs/2406.08414)[[Code]](https://github.com/SakanaAI/DiscoPOP)
 ---
 ### Theoretical Analysis
-* 2024.08 **"On the Generalization of Preference Learning with DPO"**. [[Paper]](https://arxiv.org/abs/2408.03459)[[Code]]()
-* 2024.07 **"Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.07880)[[Code]]()
-* 2024.03 **"Provably Robust DPO: Aligning Language Models with Noisy Feedback"**. [[Paper]](https://arxiv.org/abs/2403.00409)[[Code]]()
-* 2024.07 **"New Desiderata for Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.09072)[[Code]]()
-* 2024.06 **"Distributional Preference Alignment of LLMs via Optimal Transport"**. [[Paper]](https://arxiv.org/abs/2406.05882)[[Code]]()
-* 2025.02 **"Reveal the Mystery of DPO: The Connection between DPO and RL Algorithms"**. [[Paper]](https://arxiv.org/abs/2502.03095)[[Code]]()
-* 2024.06 **"Analyzing the Theoretical Limits of Preference Alignment Techniques"**. [[Paper]](https://arxiv.org/abs/2406.14629)[[Code]]()
-* 2024.07 **"Formal Analysis of Optimization Techniques for Aligning Language Models"**. [[Paper]](https://arxiv.org/abs/2407.12022)[[Code]]()
-* 2024.06 **"Theoretical Perspectives on the Efficiency and Effectiveness of Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2406.07553)[[Code]]()
+* 2024.08 **"On the Generalization of Preference Learning with DPO"**. [[Paper]](https://arxiv.org/abs/2408.03459)
+* 2024.07 **"Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.07880)[[Code]](https://github.com/junkangwu/Dr_DPO)
+* 2024.03 **"Provably Robust DPO: Aligning Language Models with Noisy Feedback"**. [[Paper]](https://arxiv.org/abs/2403.00409)
+* 2024.07 **"New Desiderata for Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.09072)
+* 2024.06 **"Distributional Preference Alignment of LLMs via Optimal Transport"**. [[Paper]](https://arxiv.org/abs/2406.05882)
+* 2025.02 **"Reveal the Mystery of DPO: The Connection between DPO and RL Algorithms"**. [[Paper]](https://arxiv.org/abs/2502.03095)
 
 ---
 
 ## 🎯Application
 ### Vision & Video
-* 2024.06 **"PopAlign: Population-Level Alignment for Fair Text-to-Image Generation"**. [[Paper]](https://arxiv.org/abs/2406.19668) [[Code]]()
-* 2024.06 **"Aligning Diffusion Models with Noise-Conditioned Perception"**. [[Paper]](https://arxiv.org/abs/2406.17636) [[Code]]()
-* 2024.06 **"Margin-aware Preference Optimization for Aligning Diffusion Models without Reference"**. [[Paper]](https://arxiv.org/abs/2406.06424) [[Code]]()
-* 2024.06 **"Diffusion-RPO: Aligning Diffusion Models through Relative Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2406.06382) [[Code]]()
-* 2024.06 **"Step-aware Preference Optimization: Aligning Preference with Denoising Performance at Each Step"**. [[Paper]](https://arxiv.org/abs/2406.04314) [[Code]]()
-* 2024 **"Diffusion Model Alignment Using Direct Preference Optimization"**. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Wallace_Diffusion_Model_Alignment_Using_Direct_Preference_Optimization_CVPR_2024_paper.html) [[Code]]()
-* 2024 **"Using Human Feedback to Fine-tune Diffusion Models without Any Reward Model"**. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Using_Human_Feedback_to_Fine-tune_Diffusion_Models_without_Any_Reward_CVPR_2024_paper.html) [[Code]]()
-* 2024.04 **"Aligning Diffusion Models by Optimizing Human Utility"**. [[Paper]](https://arxiv.org/abs/2404.04465) [[Code]]()
-* 2024.02 **"A Dense Reward View on Aligning Text-to-Image Diffusion with Preference"**. [[Paper]](https://arxiv.org/abs/2402.08265) [[Code]]()
-* 2024.05 **"MoDiPO: text-to-motion alignment via AI-feedback-driven Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2405.03803) [[Code]]()
-* 2024.05 **"Curriculum Direct Preference Optimization for Diffusion and Consistency Models"**. [[Paper]](https://arxiv.org/abs/2405.13637) [[Code]]()
-* 2024.03 **"AGFSync: Leveraging AI-Generated Feedback for Preference Optimization in Text-to-Image Generation"**. [[Paper]](https://arxiv.org/abs/2403.13352) [[Code]]()
-* 2024.05 **"Boost Your Own Human Image Generation Model via Direct Preference Optimization with AI Feedback"**. [[Paper]](https://arxiv.org/abs/2405.20216) [[Code]]()
-* 2024.03 **"Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation"**. [[Paper]](https://arxiv.org/abs/2403.12015) [[Code]]()
-* 2024.04 **"Direct Preference Optimization of Video Large Multimodal Models from Language Model Reward"**. [[Paper]](https://arxiv.org/abs/2404.01258) [[Code]]()
-* 2024.06 **"ISR-DPO: Aligning Large Multimodal Models for Videos by Iterative Self-Retrospective DPO"**. [[Paper]](https://arxiv.org/abs/2406.11280) [[Code]]()
-* 2024.07 **"Aligning Diffusion Behaviors with Q-functions for Efficient Continuous Control"**. [[Paper]](https://arxiv.org/abs/2407.09024) [[Code]]()
-* 2024.09 **"Pixel-Space Post-Training of Latent Diffusion Models"**. [[Paper]](https://arxiv.org/abs/2409.17565) [[Code]]()
+* 2024.06 **"PopAlign: Population-Level Alignment for Fair Text-to-Image Generation"**. [[Paper]](https://arxiv.org/abs/2406.19668)
+* 2024.06 **"Aligning Diffusion Models with Noise-Conditioned Perception"**. [[Paper]](https://arxiv.org/abs/2406.17636)
+* 2024.06 **"Margin-aware Preference Optimization for Aligning Diffusion Models without Reference"**. [[Paper]](https://arxiv.org/abs/2406.06424) [[Code]](https://mapo-t2i.github.io)
+* 2024.06 **"Diffusion-RPO: Aligning Diffusion Models through Relative Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2406.06382) [[Code]](https://github.com/yigu1008/Diffusion-RPO)
+* 2024.06 **"Step-aware Preference Optimization: Aligning Preference with Denoising Performance at Each Step"**. [[Paper]](https://arxiv.org/abs/2406.04314) [[Code]](https://github.com/RockeyCoss/SPO)
+* 2024 **"Diffusion Model Alignment Using Direct Preference Optimization"**. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Wallace_Diffusion_Model_Alignment_Using_Direct_Preference_Optimization_CVPR_2024_paper.html)
+* 2024 **"Using Human Feedback to Fine-tune Diffusion Models without Any Reward Model"**. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Using_Human_Feedback_to_Fine-tune_Diffusion_Models_without_Any_Reward_CVPR_2024_paper.html) [[Code]](https://github.com/yk7333/D3PO)
+* 2024.04 **"Aligning Diffusion Models by Optimizing Human Utility"**. [[Paper]](https://arxiv.org/abs/2404.04465) [[Code]](https://github.com/jacklishufan/diffusion-kto)
+* 2024.02 **"A Dense Reward View on Aligning Text-to-Image Diffusion with Preference"**. [[Paper]](https://arxiv.org/abs/2402.08265) [[Code]](https://github.com/
+Shentao-YANG/Dense_Reward_T2I)
+* 2024.05 **"MoDiPO: text-to-motion alignment via AI-feedback-driven Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2405.03803)
+* 2024.05 **"Curriculum Direct Preference Optimization for Diffusion and Consistency Models"**. [[Paper]](https://arxiv.org/abs/2405.13637) [[Code]](https://github.com/CroitoruAlin/Curriculum-DPO)
+* 2024.03 **"AGFSync: Leveraging AI-Generated Feedback for Preference Optimization in Text-to-Image Generation"**. [[Paper]](https://arxiv.org/abs/2403.13352) [[Code]](https://anjingkun.github.io/AGFSync)
+* 2024.05 **"Boost Your Own Human Image Generation Model via Direct Preference Optimization with AI Feedback"**. [[Paper]](https://arxiv.org/abs/2405.20216)
+* 2024.03 **"Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation"**. [[Paper]](https://arxiv.org/abs/2403.12015)
+* 2024.04 **"Direct Preference Optimization of Video Large Multimodal Models from Language Model Reward"**. [[Paper]](https://arxiv.org/abs/2404.01258) [[Code]](https://github.com/RifleZhang/LLaVA-Hound-DPO)
+* 2024.06 **"ISR-DPO: Aligning Large Multimodal Models for Videos by Iterative Self-Retrospective DPO"**. [[Paper]](https://arxiv.org/abs/2406.11280) [[Code]](https://github.com/snumprlab/ISR-DPO)
+* 2024.07 **"Aligning Diffusion Behaviors with Q-functions for Efficient Continuous Control"**. [[Paper]](https://arxiv.org/abs/2407.09024) [[Code]](https://github.com/thu-ml/Efficient-Diffusion-Alignment)
+* 2024.09 **"Pixel-Space Post-Training of Latent Diffusion Models"**. [[Paper]](https://arxiv.org/abs/2409.17565)
 ---
 ### Audio
 * 2024.07 **"Qwen2-Audio Technical Report"**. [[Paper]](https://arxiv.org/abs/2407.10759) [[Code]]()
