@@ -213,8 +213,7 @@ A collection of resources about direct perference optimization (DPO) series, inc
 * 2024 **"Diffusion Model Alignment Using Direct Preference Optimization"**. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Wallace_Diffusion_Model_Alignment_Using_Direct_Preference_Optimization_CVPR_2024_paper.html)
 * 2024 **"Using Human Feedback to Fine-tune Diffusion Models without Any Reward Model"**. [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Using_Human_Feedback_to_Fine-tune_Diffusion_Models_without_Any_Reward_CVPR_2024_paper.html) [[Code]](https://github.com/yk7333/D3PO)
 * 2024.04 **"Aligning Diffusion Models by Optimizing Human Utility"**. [[Paper]](https://arxiv.org/abs/2404.04465) [[Code]](https://github.com/jacklishufan/diffusion-kto)
-* 2024.02 **"A Dense Reward View on Aligning Text-to-Image Diffusion with Preference"**. [[Paper]](https://arxiv.org/abs/2402.08265) [[Code]](https://github.com/
-Shentao-YANG/Dense_Reward_T2I)
+* 2024.02 **"A Dense Reward View on Aligning Text-to-Image Diffusion with Preference"**. [[Paper]](https://arxiv.org/abs/2402.08265) [[Code]](https://github.com/Shentao-YANG/Dense_Reward_T2I)
 * 2024.05 **"MoDiPO: text-to-motion alignment via AI-feedback-driven Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2405.03803)
 * 2024.05 **"Curriculum Direct Preference Optimization for Diffusion and Consistency Models"**. [[Paper]](https://arxiv.org/abs/2405.13637) [[Code]](https://github.com/CroitoruAlin/Curriculum-DPO)
 * 2024.03 **"AGFSync: Leveraging AI-Generated Feedback for Preference Optimization in Text-to-Image Generation"**. [[Paper]](https://arxiv.org/abs/2403.13352) [[Code]](https://anjingkun.github.io/AGFSync)
