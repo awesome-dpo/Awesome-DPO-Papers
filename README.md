@@ -358,32 +358,32 @@ A collection of resources about direct perference optimization (DPO) series, inc
 * 2023.10 **"Preference Optimization for Molecular Language Models"**. [[Paper]](https://arxiv.org/abs/2310.12304)
 ---
 #### Biology
-* 2024.03 **"Preference optimization of protein language models as a multi-objective binder design paradigm"**. [[Paper]](https://arxiv.org/abs/2403.04187v1)[[Code]]()
-* 2024 **"Extrapolative protein design through triplet-based preference learning"**. [[Paper]](https://www.amazon.science/publications/extrapolative-protein-design-through-triplet-based-preference-learning)[[Code]]()
-* 2024.03 **"Antigen-Specific Antibody Design via Direct Energy-based Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2403.16576)[[Code]]()
-* 2024.05 **"Aligning protein generative models with experimental fitness via Direct Preference Optimization"**. [[Paper]](https://www.biorxiv.org/content/10.1101/2024.05.20.595026v1)[[Code]]()
-* 2024.06 **"MSAGPT: Neural Prompting Protein Structure Prediction via MSA Generative Pre-Training"**. [[Paper]](https://arxiv.org/abs/2406.05347)[[Code]]()
-* 2024 **"Saama Technologies at BioLaySumm: Abstract based fine-tuned models with LoRA"**. [[Paper]](https://aclanthology.org/2024.bionlp-1.72.pdf)[[Code]]()
+* 2024.03 **"Preference optimization of protein language models as a multi-objective binder design paradigm"**. [[Paper]](https://arxiv.org/abs/2403.04187v1)
+* 2024 **"Extrapolative protein design through triplet-based preference learning"**. [[Paper]](https://www.amazon.science/publications/extrapolative-protein-design-through-triplet-based-preference-learning)
+* 2024.03 **"Antigen-Specific Antibody Design via Direct Energy-based Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2403.16576)
+* 2024.05 **"Aligning protein generative models with experimental fitness via Direct Preference Optimization"**. [[Paper]](https://www.biorxiv.org/content/10.1101/2024.05.20.595026v1)[[Code]](https://github.com/evo-design/protein-dpo)
+* 2024.06 **"MSAGPT: Neural Prompting Protein Structure Prediction via MSA Generative Pre-Training"**. [[Paper]](https://arxiv.org/abs/2406.05347)[[Code]](https://github.com/THUDM/MSAGPT)
+* 2024 **"Saama Technologies at BioLaySumm: Abstract based fine-tuned models with LoRA"**. [[Paper]](https://aclanthology.org/2024.bionlp-1.72.pdf)
 ---
 ### Recommendation and Search
-* 2024.06 **"Supportiveness-based Knowledge Rewriting for Retrieval-augmented Language Modeling"**. [[Paper]](https://arxiv.org/abs/2406.08116)[[Code]]()
+* 2024.06 **"Supportiveness-based Knowledge Rewriting for Retrieval-augmented Language Modeling"**. [[Paper]](https://arxiv.org/abs/2406.08116)
 ---
 ### Finance
-* 2024.08 **"SNFinLLM: Systematic and Nuanced Financial Domain Adaptation of Chinese Large Language Models"**. [[Paper]](https://arxiv.org/abs/2408.02302)[[Code]]()
-* 2024.06 **"THaLLE: Text Hyperlocally Augmented Large Language Extension - Technical Report"**. [[Paper]](https://arxiv.org/pdf/2406.07505)[[Code]]()
-* 2024.02 **"FinTral: A Family of GPT-4 Level Multimodal Financial Large Language Models"**. [[Paper]](https://arxiv.org/abs/2402.10986)[[Code]]()
+* 2024.08 **"SNFinLLM: Systematic and Nuanced Financial Domain Adaptation of Chinese Large Language Models"**. [[Paper]](https://arxiv.org/abs/2408.02302)
+* 2024.06 **"THaLLE: Text Hyperlocally Augmented Large Language Extension - Technical Report"**. [[Paper]](https://arxiv.org/pdf/2406.07505)
+* 2024.02 **"FinTral: A Family of GPT-4 Level Multimodal Financial Large Language Models"**. [[Paper]](https://arxiv.org/abs/2402.10986)[[Code]](https://github.com/UBC-NLP/fintral)
 ---
 ### Embodied-AI
-* 2023.11 **"Embodied Multi-Modal Agent trained by an LLM from a Parallel TextWorld"**. [[Paper]](https://arxiv.org/abs/2311.16714)[[Code]]()
-* 2024.04 **"Do We Really Need a Complex Agent System? Distill Embodied Agent into a Single Model"**. [[Paper]](https://arxiv.org/abs/2404.04619)[[Code]]()
-* 2024.06 **"Learning Reward and Policy Jointly from Demonstration and Preference Improves Alignment"**. [[Paper]](https://arxiv.org/abs/2406.06874)[[Code]]()
+* 2023.11 **"Embodied Multi-Modal Agent trained by an LLM from a Parallel TextWorld"**. [[Paper]](https://arxiv.org/abs/2311.16714)[[Code]](https://github.com/stevenyangyj/Emma-Alfworld)
+* 2024.04 **"Do We Really Need a Complex Agent System? Distill Embodied Agent into a Single Model"**. [[Paper]](https://arxiv.org/abs/2404.04619)
+* 2024.06 **"Learning Reward and Policy Jointly from Demonstration and Preference Improves Alignment"**. [[Paper]](https://arxiv.org/abs/2406.06874)
 ---
 ### Social Impact (Safety, Privacy, Bias)
-* 2024.07 **"BiasDPO: Mitigating Bias in Language Models through Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.13928)[[Code]]()
-* 2024.07 **"Robust Utility-Preserving Text Anonymization Based on Large Language Models"**. [[Paper]](https://arxiv.org/abs/2407.11770)[[Code]]()
-* 2024.07 **"Exposing Privacy Gaps: Membership Inference Attack on Preference Data for LLM Alignment"**. [[Paper]](https://arxiv.org/abs/2407.06443)[[Code]]()
-* 2024.06 **"Preference Tuning For Toxicity Mitigation Generalizes Across Languages"**. [[Paper]](https://arxiv.org/abs/2406.16235)[[Code]]()
-* 2024.11 **"AI-TA: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source LLMs"**. [[Paper]](https://arxiv.org/abs/2311.02775)[[Code]]()
+* 2024.07 **"BiasDPO: Mitigating Bias in Language Models through Direct Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2407.13928)[[Code]](https://huggingface.co/datasets/ahmedallam/BiasDPO)
+* 2024.07 **"Robust Utility-Preserving Text Anonymization Based on Large Language Models"**. [[Paper]](https://arxiv.org/abs/2407.11770)[[Code]](https://github.com/UKPLab/arxiv2024-rupta)
+* 2024.07 **"Exposing Privacy Gaps: Membership Inference Attack on Preference Data for LLM Alignment"**. [[Paper]](https://arxiv.org/abs/2407.06443)
+* 2024.06 **"Preference Tuning For Toxicity Mitigation Generalizes Across Languages"**. [[Paper]](https://arxiv.org/abs/2406.16235)
+* 2024.11 **"AI-TA: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source LLMs"**. [[Paper]](https://arxiv.org/abs/2311.02775)[[Code]](https://github.com/aita-ai4ed/AITA)
 ---
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE).
