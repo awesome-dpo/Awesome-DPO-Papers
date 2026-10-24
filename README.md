@@ -297,6 +297,7 @@ A collection of resources about direct perference optimization (DPO) series, inc
 ---
 #### Long-LLM
 * 2024.08 **"LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs"**. [[Paper]](https://arxiv.org/abs/2408.07055) [[Code]](https://github.com/THUDM/LongWriter)
+* 2025.08 **"Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization"**. [[Paper]](https://arxiv.org/abs/2508.13993) [[Code]](https://github.com/NEUIR/LongMab-PO)
 ---
 #### Technical Reports of LLMs
 * 2024.07 **"Apple Intelligence Foundation Language Models"**. [[Paper]](https://arxiv.org/abs/2407.21075)
@@ -367,6 +368,7 @@ A collection of resources about direct perference optimization (DPO) series, inc
 ---
 ### Recommendation and Search
 * 2024.06 **"Supportiveness-based Knowledge Rewriting for Retrieval-augmented Language Modeling"**. [[Paper]](https://arxiv.org/abs/2406.08116)
+* 2025.02 **"ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance"**. [[Paper]](https://arxiv.org/abs/2502.17057) [[Code]](https://github.com/NEUIR/ExpandR)
 ---
 ### Finance
 * 2024.08 **"SNFinLLM: Systematic and Nuanced Financial Domain Adaptation of Chinese Large Language Models"**. [[Paper]](https://arxiv.org/abs/2408.02302)
